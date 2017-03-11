@@ -6,7 +6,7 @@ function Engine(){
 
     words={};
 
-    var file="https://raw.githubusercontent.com/tash-had/YHack_2016/master/SentimentEngine/Corpus.txt";
+    var file="https://raw.githubusercontent.com/Jspsun/SentimentAnalysisAPI/master/Engine/Corpus.txt";
 
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);
@@ -15,8 +15,8 @@ function Engine(){
         if(rawFile.status === 200 || rawFile.status == 0){
           var lines = rawFile.responseText.trim().split('\n'), line;
           for(line = 0; line < lines.length; line++){
-            var tokens = [lines[line].substring(0, lines[line].lastIndexOf(" ")),
-            lines[line].substring(lines[line].lastIndexOf(" "), lines[line].length-1).trim()];
+            // console.log(lines[line]);
+            var tokens = lines[line].split(" ");
             words[tokens[0]]=tokens[1];
           }
         }
