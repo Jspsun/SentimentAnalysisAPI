@@ -1,0 +1,23 @@
+{
+  "name": "sentimentengine",
+  "version": "1.0.0",
+  "description": "A quick and easy to use sentiment analysis API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jspsun/SentimentAnalysisAPI.git"
+  },
+  "keywords": [
+    "Sentiment",
+    "Analysis"
+  ],
+  "author": "Jonathan Sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jspsun/SentimentAnalysisAPI/issues"
+  },
+  "homepage": "https://github.com/Jspsun/SentimentAnalysisAPI#readme"
+}
