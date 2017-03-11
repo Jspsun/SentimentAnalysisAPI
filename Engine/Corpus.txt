@@ -10,7 +10,6 @@ abhorrent -4
 abhors -4
 abilities 2
 ability 2
-aboard 1
 aborted -1
 aborts -1
 absentee -1
