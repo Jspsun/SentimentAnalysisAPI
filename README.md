@@ -13,14 +13,14 @@ A service derived from an old sentiment analysis project. Its pretty cool and yo
 ###Usage
 I wanted to make the api as simple and easy to use as possible. Super barebones but powerful, you can very easily add sentiment analysis to your project
 
-1. Simply use the following [url](sentimentanalysisapi.herokuapp.com/)
+1. Simply use the following [url](SentimentAnalysisEngine.com/)
   ```
-  SentimentAnalysisAPI.herokuapp.com/
+  SentimentAnalysisEngine.com/
   ```
 
 2. Add the text you want to be analyzed after the last slash
   ```
-  SentimentAnalysisAPI.herokuapp.com/I love this API. But Jonathan Smells terrible.
+  SentimentAnalysisEngine.com/I love this API. But Jonathan Smells terrible.
   ```
 
 3. The server returns a JSON file with the positive and negative sentiment percentages
