@@ -2,7 +2,7 @@
 
 A service derived from an old sentiment analysis project. Its pretty cool and you can check it out [here](http://internetthoughts.net/) or the source behind it [here](https://github.com/Jspsun/WhatDoesTheInternetThink).
 
-To see the API in action follow the documentation on the README or just check it out [here](www.SentimentAnalysisEngine.com/Wow amazing.)
+To see the API in action follow the documentation on the README or just check it out [here](http://www.SentimentAnalysisEngine.com/Wow amazing.)
 
 ##How it works (roughly)
 - User GETs to the server
@@ -14,12 +14,12 @@ To see the API in action follow the documentation on the README or just check it
 ###Usage
 I wanted to make the api as simple and easy to use as possible. Super barebones but powerful, you can very easily add sentiment analysis to your project
 
-1. Simply use the following [url](www.SentimentAnalysisEngine.com/)
+1. Simply use the following [url](http://www.SentimentAnalysisEngine.com/)
   ```
   www.SentimentAnalysisEngine.com/
   ```
 
-2. Add the text you want to be analyzed after the last slash. [link](www.SentimentAnalysisEngine.com/I love this API. But Jonathan Smells terrible.)
+2. Add the text you want to be analyzed after the last slash. [link](http://www.SentimentAnalysisEngine.com/I love this API. But Jonathan Smells terrible.)
   ```
   www.SentimentAnalysisEngine.com/I love this API. But Jonathan Smells terrible.
   ```
