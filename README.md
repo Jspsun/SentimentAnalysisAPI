@@ -14,12 +14,12 @@ To see the API in action follow the documentation on the README or just check it
 ###Usage
 I wanted to make the api as simple and easy to use as possible. Super barebones but powerful, you can very easily add sentiment analysis to your project
 
-1. Simply use the following [url](http://www.SentimentAnalysisEngine.com/)
+1. Simply use the following [url](http://www.SentimentAnalysisEngine.com/). This alone won't get your response though. We need to send in some text first.
   ```
   www.SentimentAnalysisEngine.com/
   ```
 
-2. Add the text you want to be analyzed after the last slash. [link](http://www.SentimentAnalysisEngine.com/I love this API. But Jonathan Smells terrible.)
+2. Add the text you want to be analyzed after the last slash. [(link)](http://www.SentimentAnalysisEngine.com/I love this API. But Jonathan Smells terrible.)
   ```
   www.SentimentAnalysisEngine.com/I love this API. But Jonathan Smells terrible.
   ```
