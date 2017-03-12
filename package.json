@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Jspsun/SentimentAnalysisAPI/issues"
   },
-  "homepage": "https://github.com/Jspsun/SentimentAnalysisAPI#readme"
+  "homepage": "https://github.com/Jspsun/SentimentAnalysisAPI#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
