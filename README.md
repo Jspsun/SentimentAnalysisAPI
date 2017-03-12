@@ -19,7 +19,7 @@ I wanted to make the api as simple and easy to use as possible. Super barebones 
   www.SentimentAnalysisEngine.com/
   ```
 
-2. Add the text you want to be analyzed after the last slash. [(link)](http://www.SentimentAnalysisEngine.com/I love this API. But Jonathan Smells terrible.)
+2. Add the text you want to be analyzed after the last slash [(link)](http://www.SentimentAnalysisEngine.com/I love this API. But Jonathan Smells terrible.).
   ```
   www.SentimentAnalysisEngine.com/I love this API. But Jonathan Smells terrible.
   ```
