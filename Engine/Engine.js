@@ -31,7 +31,7 @@ module.exports=function Engine(){
 
   //returns {positive, negative}
   this.analyze=function(givenText){
-    givenText = givenText.toLowerCase();
+    givenText = givenText.toLowerCase().replace(/[.,\/#!$%\^&\*;{}=\-_`~]/g," ");
     var word = givenText.split(' ');
     var negative=0;
     var positive=0;
