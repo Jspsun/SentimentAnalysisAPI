@@ -1,4 +1,6 @@
-function Engine(){
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+
+module.exports=function Engine(){
   var words={};
 
   //Method to add individual elements to hashmap
@@ -24,7 +26,7 @@ function Engine(){
     }
     rawFile.send(null);
 
-    console.log(words);
+    // console.log(words);
 
 
   //returns {positive, negative}

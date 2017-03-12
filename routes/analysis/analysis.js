@@ -1,12 +1,14 @@
-module.exports = (req, res) => {
-  // const models = data.models;
-  //
-  // res.status(200).json({ models });
 
+const SAEngine = require('../../Engine/Engine');
+const Engine=new SAEngine();
+
+module.exports = (req, res) => {
   var inputText=req.params.inputText;
+  var results=Engine.analyze(inputText);
 
   var analysisResult={
-    answer : inputText
+    positive : results[0],
+    negative : results[1]
   };
   res.status(200).json( analysisResult );
 };
