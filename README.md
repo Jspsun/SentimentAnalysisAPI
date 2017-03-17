@@ -1,17 +1,17 @@
-#Sentiment Engine API
+# Sentiment Engine API
 
 A service derived from an old sentiment analysis project. Its pretty cool and you can check it out [here](http://internetthoughts.net/) or the source behind it [here](https://github.com/Jspsun/WhatDoesTheInternetThink).
 
 To see the API in action follow the documentation on the README or just check it out [here](http://www.SentimentAnalysisEngine.com/Wow amazing.)
 
-##How it works (roughly)
+## How it works (roughly)
 - User GETs to the server
 - The engine cross references words to corresponding sentiment values from a modified Corpus
   - The corpus was generated using Microsoft Azure. It makes context a bit harder but it let me pre-process everything for much faster lookup
 - The server returns a JSON containing sentiment value for the amount of "positiveness" and "negativeness" within the text in terms of a percentage (represented in decimal format)
 
-##Documentation
-###Usage
+## Documentation
+### Usage
 I wanted to make the api as simple and easy to use as possible. Super barebones but powerful, you can very easily add sentiment analysis to your project
 
 1. Simply use the following [url](http://www.SentimentAnalysisEngine.com/). This alone won't get your response though. We need to send in some text first.
@@ -30,7 +30,7 @@ I wanted to make the api as simple and easy to use as possible. Super barebones 
   "negative":0.5714285714285714}
   ```
 
-###Running it locally
+### Running it locally
 Running the service locally is really easy. Here's a beginner-friendly guide!
 1. Make sure you have git installed for your shell. Clone the repo by typing into your terminal:
   ```
@@ -58,13 +58,13 @@ Running the service locally is really easy. Here's a beginner-friendly guide!
   http://localhost:1337/Jonathan is such a nice guy for making this guide
   ```
 
-##Tech used
+## Tech used
 - Node.js
   - Express
   - xmlhttprequest
 - Heroku
 
-##Contributing/Crediting
+## Contributing/Crediting
 - If there are any issues, be sure to mark it in the repo and if you can fix it, don't be afraid to make a pull request
 - If you like using it, don't forget to credit me (and the repo) in your project README
 - I know they don't matter, but starring the project warms my heart <3
