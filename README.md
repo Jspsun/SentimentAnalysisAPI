@@ -2,7 +2,7 @@
 
 A service derived from an old sentiment analysis project. Its pretty cool and you can check it out [here](http://internetthoughts.net/) or the source behind it [here](https://github.com/Jspsun/WhatDoesTheInternetThink).
 
-To see the API in action follow the documentation on the README or just check it out [here](http://www.SentimentAnalysisEngine.com/Wow amazing.)
+To see the API in action follow the documentation on the README or just check it out [here](http://www.SentimentAnalysisEngine.com/Wow%20Amazing)
 
 ## How it works (roughly)
 - User GETs to the server
@@ -21,7 +21,7 @@ I wanted to make the api as simple and easy to use as possible. Super barebones 
 
 2. Add the text you want to be analyzed after the last slash [(link)](http://www.SentimentAnalysisEngine.com/I love this API. But Jonathan Smells terrible.).
   ```
-  www.SentimentAnalysisEngine.com/I love this API. But Jonathan Smells terrible.
+  www.SentimentAnalysisEngine.com/I%20love%20this%20API.%20But%20Jonathan%20Smells%20terrible.
   ```
 
 3. The server returns a JSON file with the positive and negative sentiment percentages.
